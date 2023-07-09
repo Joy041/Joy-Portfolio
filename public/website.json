@@ -1,0 +1,80 @@
+[
+    {
+        "_id": 1,
+        "name": "It's a martial art's teaching website. Take a look.",
+        "image": "https://i.ibb.co/QNvYYBY/Screenshot-2023-06-28-230511-01-01.jpg",
+        "live": "https://martial-verse.web.app/",
+        "client": "https://github.com/Joy041/martial-verse-client",
+        "server": "https://github.com/Joy041/martial-verse-server"
+    },
+    {
+        "_id": 2,
+        "name": "It's a toy selling website. Take a look.",
+        "image": "https://i.ibb.co/J3fTQnK/Screenshot-2023-06-28-231101-01.jpg",
+        "live": "https://kitty-krazy-364fd.web.app/",
+        "client": "https://github.com/Joy041/kitty-krazy-client",
+        "server": "https://github.com/Joy041/kitty-krazy-server"
+    },
+    {
+        "_id": 3,
+        "name": "Food recipes website. Take a look.",
+        "image": "https://i.ibb.co/LSCZPHz/Screenshot-2023-06-28-232203-01.jpg",
+        "live": "https://kitchenise-web.web.app/",
+        "client": "https://github.com/Joy041/kitchenise-client",
+        "server": "https://github.com/Joy041/kitchenise-server"
+    },
+    {
+        "_id": 4,
+        "name": "Car service website. Take a look.",
+        "image": "https://i.ibb.co/LNg5B2s/Screenshot-2023-06-28-233313-01.jpg",
+        "live": "https://car-doctor-web.web.app/",
+        "client": "https://github.com/Joy041/car-doctor-client",
+        "server": "https://github.com/Joy041/car-doctor-server-2"
+    },
+    {
+        "_id": 5,
+        "name": "News website. Take a look.",
+        "image": "https://i.ibb.co/Zmt0NN4/Screenshot-2023-06-28-232735-01.jpg",
+        "live": "https://the-news-dragon-dccd6.web.app/categories/0",
+        "client": "https://github.com/Joy041/the-dragon-news",
+        "server": "https://github.com/Joy041/the-dragon-news-server"
+    },
+    {
+        "_id": 6,
+        "name": "This is a job site where people can apply for jobs. Take a look.",
+        "image": "https://i.ibb.co/rxC8gz5/Screenshot-2023-06-28-231405-01.jpg",
+        "live": "https://adorable-semifreddo-f3dba2.netlify.app/",
+        "client": "https://github.com/Joy041/get-job"
+    },
+    {
+        "_id": 7,
+        "name": "Product selling website. Take a look.",
+        "image": "https://i.ibb.co/7SVhcxx/Screenshot-2023-06-28-233650-01.jpg",
+        "live": "https://emajon-with-firebase-fe6d0.web.app/",
+        "client": "https://github.com/Joy041/ema-john-web",
+        "server": "https://github.com/Joy041/ema-jhon-server"
+    },
+    {
+        "_id": 8,
+        "name": "Food selling website. Take a look.",
+        "image": "https://i.ibb.co/8Xk2X3D/Screenshot-2023-06-29-031822-01.jpg",
+        "live": "https://bistro-boss-f0ba1.web.app/",
+        "client": "https://github.com/Joy041/bistro-boss-client",
+        "server": "https://github.com/Joy041/bistro-boss-server"
+    },
+    {
+        "_id": 9,
+        "name": "This is a quiz taking website. Take a look.",
+        "image": "https://i.ibb.co/98cNJWJ/Screenshot-2023-06-28-231801-01.jpg",
+        "live": "https://frolicking-queijadas-0f0170.netlify.app/",
+        "client": "https://github.com/Joy041/quiz-hero"
+    },
+    {
+        "_id": 10,
+        "name": "Parlour service website for women. Take a look.",
+        "image": "https://i.ibb.co/NKLCmXj/Screenshot-2023-06-29-032007-01.jpg",
+        "live": "https://jerin-parlour-2cceb.web.app/",
+        "client": "https://github.com/Joy041/jerin-paelour-client",
+        "server": "https://github.com/Joy041/jerin-parlour-server"
+    }
+]

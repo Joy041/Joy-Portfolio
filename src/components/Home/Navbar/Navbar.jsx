@@ -1,9 +1,9 @@
 import {
+    FaDownload,
     FaGithub,
     FaLinkedin
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -13,8 +13,10 @@ const Navbar = () => {
         <li><Link to={'home'} className='text-xl hover:text-pink-600' smooth = {true} duration = {500}>Home</Link></li>
         <li><Link to={'about'} className='text-xl hover:text-pink-600' smooth = {true} duration = {500}>About</Link></li>
         <li><Link to={'skills'} className='text-xl hover:text-pink-600' smooth = {true} duration = {500}>Skills</Link></li>
+        <li><Link to={'services'} className='text-xl hover:text-pink-600' smooth = {true} duration = {500}>Services</Link></li>
         <li><Link to={'work'} className='text-xl hover:text-pink-600' smooth = {true} duration = {500}>Work</Link></li>
         <li><Link to={'contact'} className='text-xl hover:text-pink-600 me-4' smooth = {true} duration = {500}>Contact</Link></li>
+        <div><a href="/src/assets/Joy purkaystha resume.pdf" download><button className='btn bg-pink-600 border-0'>Download Resume <FaDownload className='hidden md:visible' /></button></a></div>
     </div>
 
     return (
@@ -28,7 +30,7 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl text-white">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl text-white">Joy.dev</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -58,19 +60,12 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a
                             className='flex justify-around items-center w-full text-gray-300'
-                            href='joypurkaystha0@gmail.com'
+                            href='mailto:joypurkaystha0@gmail.com'
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a
-                            className='flex justify-around items-center w-full text-gray-300'
-                            href='https://drive.google.com/file/d/1Mpx-ahAB77T5MJVxP7TbE90GlSya6qPN/view?usp=sharing'
-                        >
-                            Resume <BsFillPersonLinesFill size={30} />
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
